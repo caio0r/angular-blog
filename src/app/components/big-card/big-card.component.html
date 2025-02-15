@@ -8,12 +8,12 @@
         >
     </div>
     <div class="big-card__title">
-        <h1>{{cardTitle}}</h1>
+        <h1><a [href]="'/content/' + Id">{{cardTitle}}</a></h1>
     </div>
     <div class="big-card__description">
-        <p>
+        <a [href]="'/content/' + Id">
             {{cardDescription}}
-        </p>
+        </a>
     </div>
 </a>
 </div>
